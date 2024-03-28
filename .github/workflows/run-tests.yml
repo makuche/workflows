@@ -24,4 +24,4 @@ jobs:
                 python -m pip install --upgrade pip
                 pip install pytest
             - name: Run tests
-              run: pytest run-tests.yml
+              run: pytest some_test.py
